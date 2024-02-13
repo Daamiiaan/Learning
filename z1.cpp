@@ -52,3 +52,4 @@ ostream &operator<<(ostream &wypisz, const K2 b)
 {
 wypisz< return wypisz;
 }
+https://raw.githubusercontent.com/Umwelt32/QuickCode/main/utils/mp/1/z1.cpp
