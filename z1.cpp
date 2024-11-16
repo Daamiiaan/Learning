@@ -1,13 +1,8 @@
-nictuniema
-sdgfadsgfdfywr
-ysghgfboindfva
-fgadipgdmfgaWS.F
-  DFGHDFIHGNMAREGA
-  GDFMA[OLDGFAERG
-  DAFGDFOBMSA]FDOYTQERY
-  DFGAP]NREY]PEARMG
-AFDGSDGFPAERNGMMLAEGGM]
-ADPNODFHGPAERL,GAOPRFMEHA
-  AEHPODHTAMAEHTGFD
-  HSGPHMNSGHAREGHAD
-  HF
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  cout << "hej" << endl;
+}
