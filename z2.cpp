@@ -20,9 +20,16 @@ class osoba
 {
     string imie_;
     int wiek_;
-    adres adr_;
+    adres adres_;
 public:
-    osoba() : imie_("brak"), wiek_("brak"), adr_(new adres a) {}
+    osoba() : imie_("brak"), wiek_(0), adres_("brak", "brak", 0) {}
+    osoba(string imie, int wiek, adres a) : imie_(imie), wiek_(wiek), adres_(a) {}
+
+    friend ostream operator<<(ostream& os, const osoba& a)
+    {
+        cout << a.imie_ << " " << a.wiek_ << " " << a.adres_ << endl;
+        //return os;
+    }
 };
 
 int main() 
@@ -45,4 +52,5 @@ int main()
 
     osoba os1("Ala", 25, *wsk1);
     delete wsk1;
+    cout << os1 << '\n';
 }
