@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <string>
+#include <stdlib.h>
 using namespace std;
 
 bool palindrom(int number) {
